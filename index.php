@@ -44,5 +44,6 @@ endif;
 	<script>!window.jQuery && document.write('<script src="js/jquery-1.4.2.min.js"><\/script>')</script>
 	<script src="js/plugins.js?v=1"></script>
 	<script src="js/script.js?v=1"></script>
+	<?php wp_footer(); ?> 
 </body>
 </html>
