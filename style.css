@@ -8,9 +8,5 @@ GitHub Theme URI: https://github.com/thebeegoesbuzz/test-theme
 GitHub Branch:    master
 */
 
-body {
-	background-color: black;
-}
-a {
-	color: #fc0;
-}
+@import url(css/reset.css);
+@import url(css/main.css);

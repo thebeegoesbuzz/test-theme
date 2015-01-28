@@ -1,0 +1,59 @@
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; 
+}
+
+header[role="banner"] {
+	float: left;
+	width: 100%;
+	background-color: #eee;
+	
+	#nav ul {
+		width: 100%;
+		display: block;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		text-align: right;
+		
+		li {
+			text-align: right;
+			display: inline-block;
+			
+			a {
+				display: block;
+				text-align: right;
+				padding: 20px;
+			}
+		}
+		
+		li#logo {
+			float: left;
+			
+			a {
+				text-decoration: none;
+				color: #272727;
+			}
+		}
+	}
+}
+
+.main-content {
+	padding: 20px;
+	
+	article {
+		
+		h1{
+			font-size: 3.3em;
+			line-height: 1.25;
+			font-weight: 500;
+		}
+		
+		p {
+			font-size:1.3125em;
+		}
+	}
+}
